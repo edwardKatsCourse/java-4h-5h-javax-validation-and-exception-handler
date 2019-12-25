@@ -1,0 +1,46 @@
+1. REST API validation
+javax.validation
+java.util.collections.
+
+javax
+1. Reference implementation
+2. Not a part of standard JDK, i.e. - this is a separate library
+3. javax.validation was created to validate java beans (JPA entities)
+
+entity + repository = model/bean
+
+@Entity
+class Person {
+
+//fields
+	15-20
+	@NotBlank
+	private String name;
+
+	save()
+	update()
+	delete()
+	find by 
+	
+//	over 1K lines of code
+//	jpql
+//	duplicates
+
+	find 1, 2, 15, 20
+	update
+	return 
+}
+
+4. for a long time, the best javax.validation's implementation was 
+provided by org.hibernate.validator
+
+
+
+5. input validation response
+
+Map<String, List<String>>
+	field	  errors[]
+
+
+
+
